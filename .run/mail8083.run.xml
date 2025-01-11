@@ -1,0 +1,12 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="mail8083" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <option name="ALTERNATIVE_JRE_PATH" value="corretto-21" />
+    <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+    <module name="distributed-mail.main" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="com.aengdulab.distributedmail.DistributedMailApplication" />
+    <option name="VM_PARAMETERS" value="-Dserver.port=8083" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

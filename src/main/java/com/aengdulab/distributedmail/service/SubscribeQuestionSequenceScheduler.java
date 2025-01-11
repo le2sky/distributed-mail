@@ -1,10 +1,10 @@
 package com.aengdulab.distributedmail.service;
 
+import java.util.List;
 import com.aengdulab.distributedmail.domain.Question;
 import com.aengdulab.distributedmail.domain.Subscribe;
 import com.aengdulab.distributedmail.repository.QuestionRepository;
 import com.aengdulab.distributedmail.repository.SubscribeRepository;
-import java.util.List;
 import lombok.RequiredArgsConstructor;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;

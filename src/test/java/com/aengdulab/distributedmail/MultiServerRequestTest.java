@@ -37,7 +37,12 @@ class MultiServerRequestTest {
     /*
     서버를 다중화할 경우, 새로운 요청에 대한 추가 포트를 설정
      */
-    private static final List<Integer> serverPorts = List.of(8080, 9090, 9999);
+    private static final List<Integer> serverPorts = List.of(
+            8080, 8081, 8082, 8083, 8084,
+            8085, 8086, 8087, 8088, 8089,
+            8090, 8091, 8092, 8093, 8094,
+            8095, 8096, 8097, 8098, 8099
+    );
 
     @Autowired
     private SentMailEventRepository sentMailEventRepository;
